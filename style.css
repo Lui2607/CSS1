@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://sun9-42.userapi.com/impg/Lq5_RPZc-G0KkPt6Hq-tTkZwN1fnZNFIXsLJiA/YxUOj6-15Qc.jpg?size=1776x1184&quality=95&sign=73915a579e2f501142d188e0508ae6df&type=album) bottom no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: beige;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.news {
+    background-color: antiquewhite;
+    padding: 50px 0 32px;
+}
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid gray;
+}
+article a {
+    color: dimgray;
+    text-decoration: none;
+}
+article a:hover {
+    color: darkolivegreen;
+}
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta {
+    color: olive;
+    margin-bottom: 5px;
+}
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+margin-bottom: 50px;
+}
+footer .links > a {
+    color: cadetblue;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copytight {
+    color: darkolivegreen;
+    font-family: 'Times New Roman', Times, serif;
+}
